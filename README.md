@@ -6,7 +6,7 @@ This repository contains the full CAD files of my custom 6WD Tridex (CoreXY AWD 
 
 The concept combines a Tridex-style IDEX layout with a 6-wheel-drive motion system, focused on high acceleration, drivetrain rigidity and experimental high-speed performance setups.
 
-Motion System
+# Motion System
 
 The drivetrain is designed around six NEMA17 stepper motors for the XY AWD configuration.
 
@@ -19,7 +19,7 @@ Official AWD gantry reference:
 
 This project integrates that AWD concept into a Tridex-style architecture and extends it into a custom 6WD configuration.
 
-Part Cooling
+# Part Cooling
 
 Each toolhead runs an independent CPAP-based part cooling system.
 
@@ -29,7 +29,7 @@ For this build, I used the BIQU Universal Turbo Kit (CPAP solution):
 
 Both toolheads are equipped with separate CPAP blowers to ensure high and consistent airflow at extreme print speeds.
 
-What’s included
+# What’s included
 
 Complete mechanical CAD
 
@@ -43,7 +43,7 @@ Important
 
 This is not a polished commercial release.
 
-The design:
+# The design:
 
 is still experimental
 
