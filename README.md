@@ -43,7 +43,7 @@ Important
 
 This is not a polished commercial release.
 
-# The design:
+# The design
 
 is still experimental
 
