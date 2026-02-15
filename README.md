@@ -6,15 +6,18 @@ This repository contains the full CAD files of my custom 6WD Tridex (CoreXY AWD 
 
 The concept combines a Tridex-style IDEX layout with a 6-wheel-drive motion system, focused on high acceleration, drivetrain rigidity and experimental high-speed performance setups.
 
-AWD System
+Motion System
 
-For the all-wheel-drive implementation, I used the LDO Motors AWD CNC system as the mechanical and drivetrain foundation in my build.
+The drivetrain is designed around six NEMA17 stepper motors for the XY AWD configuration.
 
-The base gantry concept originates from the official LDO AWD repository:
+All six drive motors are intended to be standard NEMA17 format (1.8°), making the system compatible with widely available high-performance stepper options.
 
+The AWD base concept originates from the LDO Motors AWD CNC system, which served as the mechanical foundation for this build.
+
+Official AWD gantry reference:
 👉 https://github.com/VCProjects/LDO_AWD
 
-This project represents my integration of that AWD gantry into a Tridex-style architecture and its expansion into a custom 6WD configuration.
+This project integrates that AWD concept into a Tridex-style architecture and extends it into a custom 6WD configuration.
 
 Part Cooling
 
@@ -24,7 +27,7 @@ For this build, I used the BIQU Universal Turbo Kit (CPAP solution):
 
 👉 https://biqu.equipment/products/universal-turbo-kit
 
-Both toolheads are equipped with separate CPAP blowers to allow high and consistent airflow at extreme print speeds.
+Both toolheads are equipped with separate CPAP blowers to ensure high and consistent airflow at extreme print speeds.
 
 What’s included
 
@@ -53,13 +56,3 @@ has not been validated for long-term reliability
 This repository is meant as a reference and inspiration platform, not a finished kit.
 
 If you build from it, you do so at your own responsibility.
-
-Purpose
-
-The goal of sharing this CAD is to:
-
-Provide a starting point for advanced builders
-
-Document the development process
-
-Encourage experimentation in AWD / multi-drive CoreXY systems
